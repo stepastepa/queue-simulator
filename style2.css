@@ -68,7 +68,7 @@ article {
   position: fixed;
   font-size: 2em;
   font-weight: bold;
-  transform: translateX(-1em) translateY(-0.32em);
+  transform: translateX(-1em) translateY(-0.2em);
 }
 
 .input-container {

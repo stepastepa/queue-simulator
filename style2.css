@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: monospace;
 }
 
 html,
 body {
   font-size: 15px;
-  font-family: monospace;
+  font-family: 'Courier New', monospace;
   height: 100%;
 }
 

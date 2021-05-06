@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
@@ -68,7 +69,7 @@ article {
   position: fixed;
   font-size: 2em;
   font-weight: bold;
-  transform: translateX(-1em) translateY(-0.25em);
+  transform: translateX(-1em) translateY(-0.23em);
 }
 
 .input-container {
@@ -113,11 +114,28 @@ button:hover {
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+  body {
+    font-size: 10px;
+  }
   .container {
     flex-direction: column-reverse;
   }
   .right {
     justify-content: flex-start;
+  }
+  #resultNumbers {
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .result {
+    width: 5.5em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .highlight::before {
+    content: none;
+    
   }
 }

@@ -123,6 +123,7 @@ button:hover {
   }
   .right {
     justify-content: flex-start;
+    padding-right: 0;
   }
   #resultNumbers {
     flex-direction: row;

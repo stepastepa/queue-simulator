@@ -137,6 +137,8 @@ button:hover {
   }
   .highlight::before {
     content: none;
-    
+  }
+  input {
+  font-size: 1.7em;
   }
 }

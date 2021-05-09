@@ -45,11 +45,13 @@ article {
 }
 
 .right {
-  align-items: center;
   background: #fff;
 }  
 .right article {
   color: #000;
+}
+.long-list {
+  justify-content: flex-start;
 }
 
 .result {
@@ -114,6 +116,7 @@ button:hover {
   
 }
 
+
 @media (max-width: 700px) {
   body {
     font-size: 10px;
@@ -137,8 +140,6 @@ button:hover {
   }
   .highlight::before {
     content: none;
-  }
-  input {
-  font-size: 1.7em;
+    
   }
 }

@@ -66,13 +66,13 @@ article {
   border: 3px dotted black;
   box-shadow: 0px 0px 0px 6px black;
 }
-.highlight::before {
+/*.highlight::before {
   content: '*';
   position: fixed;
   font-size: 2em;
   font-weight: bold;
   transform: translateX(-1em) translateY(-0.23em);
-}
+}*/
 
 .input-container {
   display: flex;
